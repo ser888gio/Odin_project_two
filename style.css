@@ -2,30 +2,10 @@
     border: solid red 2px;
 }*/
 
-.nav{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.nav ul li{
-    display: inline-block;
-}
-
-.left-wrapper{
-    flex: 1;
-    padding: 20px;
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.right-wrapper, .subtext{
-    color: #E5E7EB;
-    font-size: 18px;
-}
 
 footer p{
     text-align: center;
+    color: #F9FAF8;
 }
 
 .inspiring-quote{
@@ -44,8 +24,13 @@ footer p{
     color: #F9FAF8;
 }
 
-.nav,
+.nav_links{
+    color: #F9FAF8;
+}
+
+header,
 .welcome-side,
+.image,
 footer {
     background-color: #1F2937;
 }
@@ -53,4 +38,55 @@ footer {
 .button{
     background-color: #3882F6;
     color: white;
+    width: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    gap: 100px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    cursor: pointer ;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.text-and-button{
+    margin-top: -50px;
+    display: grid;
+    padding: 25px;
+}
+
+.welcome-side{
+    display: flex;
+    padding: 100px;
+    column-gap: 50px;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -20px;
+}
+
+.image{
+    width: 500px;
+    height: auto;
+}
+
+.random-text{
+    align-items: center;
 }
