@@ -87,6 +87,25 @@ header{
     height: auto;
 }
 
-.random-text{
-    align-items: center;
+.random-text, .quote-text{
+    text-align: center;
 }
+
+.author{
+    text-align: right;
+    margin-right: 600px;
+    margin-top: -30px;
+}
+
+.some-random-columns{
+    display: flex;
+}
+
+.column1, .column2, .column3, .column4{
+
+}
+
+#first-image, #second-image, #third-image, #fourth-image{
+    border: 2px blue;
+}
+
