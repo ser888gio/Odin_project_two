@@ -99,13 +99,11 @@ header{
 
 .some-random-columns{
     display: flex;
-}
-
-.column1, .column2, .column3, .column4{
-
+    justify-content: space-around;
 }
 
 #first-image, #second-image, #third-image, #fourth-image{
-    border: 2px blue;
+    border: 5px solid blue;
+    border-radius: 10%;
 }
 
