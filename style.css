@@ -39,6 +39,7 @@ footer {
     background-color: #3882F6;
     color: white;
     width: 100px;
+    border-radius: 5px;
 }
 
 header{
